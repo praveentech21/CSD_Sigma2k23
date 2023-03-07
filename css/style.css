@@ -304,7 +304,7 @@ color:red;
 
 #main{
 	position: relative;
-  background-image: url("../assets/bgfinal.png");
+  background-image: url("../assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
