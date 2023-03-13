@@ -6433,54 +6433,54 @@ button:hover:after {
     margin-left: -6px;
   }
 }
-.lgx-banner {
-  background: url(/assets/img/banner.png) top center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-.lgx-banner .lgx-inner {
-  padding: 27rem 0 20rem;
-}
-.lgx-banner-music,
-.lgx-banner12,
-.lgx-banner13,
-.lgx-banner14,
-.lgx-banner16,
-.lgx-banner2,
-.lgx-banner3,
-.lgx-banner4,
-.lgx-banner5,
-.lgx-banner6,
-.lgx-banner7 {
-  background: url(/assets/img/banner.png) top center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-.lgx-banner-christmas {
-  background: url(/assets/img/banner.png) bottom center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-.lgx-banner-comingsoon {
-  background: url(/assets/img/banner.png) center center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-.lgx-banner-parallax {
-  background: url(/assets/img/banner.png) top center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
+  .lgx-banner {
+    background: url(/assets/img/banner.png) top center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .lgx-banner .lgx-inner {
+    padding: 27rem 0 20rem;
+  }
+  .lgx-banner-music,
+  .lgx-banner12,
+  .lgx-banner13,
+  .lgx-banner14,
+  .lgx-banner16,
+  .lgx-banner2,
+  .lgx-banner3,
+  .lgx-banner4,
+  .lgx-banner5,
+  .lgx-banner6,
+  .lgx-banner7 {
+    background: url(/assets/img/banner.png) top center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .lgx-banner-christmas {
+    background: url(/assets/img/banner.png) bottom center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .lgx-banner-comingsoon {
+    background: url(/assets/img/banner.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+  .lgx-banner-parallax {
+    background: url(/assets/img/banner.png) top center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
 .lgx-banner-info-area {
   display: flex;
 }
