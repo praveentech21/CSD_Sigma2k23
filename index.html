@@ -58,6 +58,7 @@
     </div>
 </div>
 </header>
+
 <!-- BANNER sTARTS -->
 <section>
     <div class="lgx-banner lgx-banner3">
@@ -84,15 +85,26 @@
                         <div class="col-xs-12 col-sm-5">
                             <div class="lgx-registration-form-box lgx-registration-banner-box"> <!--lgx-registration-banner-box-->
                                 <div class="lgx-registration-form">
-                                    <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Your Name ..." type="text">
-                                    <input name="email" value="" class="wpcf7-form-control form-control" placeholder="Your E-mail ..." type="email">
-                                    <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Mobile Number ..." type="text">
-                                    <select name="your-browser" class="wpcf7-form-control wpcf7-select lgx-select">
-                                        <option value="Personal - $39">Personal - $39</option>
-                                        <option value="Business - $89">Business - $89</option>
-                                        <option value="Premium - $189">Premium - $189</option>
+                                    <form action="register.php" method="post">
+                                    <input name="sname" value="" class="wpcf7-form-control form-control" placeholder="Your Name ..." type="text">
+                                    <input name="regno" value="" class="wpcf7-form-control form-control" placeholder="Registration Number ..." type="text">
+                                    <input name="mobile" value="" class="wpcf7-form-control form-control" placeholder="Mobile Number ..." type="text">
+                                    <select name="dept" class="wpcf7-form-control wpcf7-select lgx-select" >
+                                        <option selected >Select your Department ......</option>
+                                        <option value="CSD">CSD</option>
+                                        <option value="CSE">CSE</option>
+                                        <option value="IOT">CSE(IOT)</option>
+                                        <option value="CSBS">CSBS</option>
+                                        <option value="IT">IT</option>
+                                        <option value="AIDS">AIDS</option>
+                                        <option value="AIML">AIML</option>
+                                        <option value="ECE">ECE</option>
+                                        <option value="EEE">EEE</option>
+                                        <option value="CIVIL">CIVIL</option>
+                                        <option value="MECH">MECH</option>
                                     </select>
-                                    <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
+                                    <input class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit" name="submit">
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -1199,6 +1211,5 @@
 
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
-
 </body>
 </html>
