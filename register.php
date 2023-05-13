@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $dept = $_POST['dept'];
     $run = mysqli_query($coon,"insert into resistrations values ('$sname','$regno','$mobile','$dept')");
     echo "<script>alert('you have registered Succesfully');</script>";
-    header("location:index.html");
+    // header("location:index.html");
 }    
 
 ?>
